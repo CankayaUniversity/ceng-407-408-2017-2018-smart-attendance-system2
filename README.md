@@ -1,7 +1,7 @@
 # ceng-407-408-smart-attendance-system2
 Installation Guide for Smart Attendance System
 In our project, we have both an IOS application for students and a web application for the lecturers.
-For our IOS Application:
+For our IOS Application: </br>
 1.Before you begin, you need a few things set up in your environment:
 •	Xcode 8.0 or later
 •	An Xcode project targeting iOS 8 or above
