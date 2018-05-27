@@ -1,0 +1,51 @@
+﻿<html>
+<head>
+    <title></title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <div id="login_div" class="main-div">
+        <img src="logo.png" >
+        <h3>Çankaya Smart Attendance System</h3>
+        <input type="email" placeholder="Email..." id="email_field" />
+        <input type="password" placeholder="Password..." id="password_field" />
+
+        <button onclick="login()">Login</button>
+    </div>
+
+    <div id="user_div" class="loggedin-div">
+        <h3>Welcome User</h3>
+        <p id="user_para">Welcome to Çankaya University Smart Attendance System. You're currently logged in.</p>
+
+        <form action="/filter.html" class="inline">
+            <button class="float-left submit-button">List Attendance</button>
+        </form>
+        <form action="/Add.html" class="inline">
+            <button class="float-left submit-button">Add Course</button>
+        </form>
+        <button onclick="logout()">Logout</button>
+    </div>
+
+
+
+    <script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.13.0/firebase-firestore.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyBXM7vW5sXXGZplKc5FjWgEa7uKSQli-GA",
+            authDomain: "smart-a1f6d.firebaseapp.com",
+            databaseURL: "https://smart-a1f6d.firebaseio.com",
+            projectId: "smart-a1f6d",
+            storageBucket: "smart-a1f6d.appspot.com",
+            messagingSenderId: "751417575909"
+        };
+        firebase.initializeApp(config);
+    </script>
+
+    <script src="Login.js"></script>
+
+</body>
+</html>
