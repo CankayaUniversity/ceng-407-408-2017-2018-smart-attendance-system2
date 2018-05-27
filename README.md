@@ -1,12 +1,12 @@
 # ceng-407-408-smart-attendance-system2
 Installation Guide for Smart Attendance System
 In our project, we have both an IOS application for students and a web application for the lecturers.
-For our IOS Application: </br>
+For our IOS Application:
 1.Before you begin, you need a few things set up in your environment:
-•	Xcode 8.0 or later
-•	An Xcode project targeting iOS 8 or above
-•	Swift projects must use Swift 3.0 or later
-•	The bundle identifier of your app
+	Xcode 8.0 or later
+	An Xcode project targeting iOS 8 or above
+	Swift projects must use Swift 3.0 or later
+  The bundle identifier of your app
 
 2.Add Firebase to your app
 It's time to add Firebase to your app. To do this you'll need a Firebase project and a Firebase configuration file for your app.
